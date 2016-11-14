@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>4U</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBBoZJXbSMP1PxXsZsvD6Eo9TSpVAzul_g",
+    authDomain: "u-web-cba33.firebaseapp.com",
+    databaseURL: "https://u-web-cba33.firebaseio.com",
+    storageBucket: "u-web-cba33.appspot.com",
+    messagingSenderId: "169400426614"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.affix {
+	top: 0;
+	width: 100%;
+}
+
+.affix + .container-fluid {
+	padding-top: 70px;
+}
+</style>
+</head>
+<body>
+<main>
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="197">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="#"><span class="glyphicon glyphicon-search"></span> 搜索</a></li>
+<li><a href="#"><span class="glyphicon glyphicon-user"></span> 登陆</a></li>
+<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 注册</a></li>
+</ul>
+</nav>
+</div>
+<div class="jumbotron">
+<h1 class="text-center">4U平台</h1>
+<p class="text-center">This is <mark>Just For You</mark></p>
+</div> 
+<div class="column">
+<div class="col-sm-4">
+<div class="jumbotron">
+<p class="text-center"><a href="#"><strong>北美创业</strong></a></p>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="jumbotron">
+<p class="text-center"><a href:"#"><strong>北美就业</strong></a></p>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="jumbotron">
+<p class="text-center"><a href:"#"><strong>北美医疗</strong></a></p>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+<h4 class="text-center"><strong>About Us:</strong></h4>
+<blockquote>
+<p><small>4U是为中国留学生服务的平台。4U致力于提供创业者创业辅导，促进创业者之间以及和合作企业的交流。
+基于最新资讯以及合作公司，平台也会帮助优秀人才寻找工作。4U将帮助对比不同北美健康保险以及持有保险后相关就
+医信息，从而便捷留学生寻求健康保障。</small></p>
+</blockquote>
+</div>
+</main>
+</body>
+</html>
